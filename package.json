@@ -1,5 +1,5 @@
 {
-  "name": "structured-log-seq-sink",
+  "name": "@diginet/structured-log-seq-sink",
   "version": "0.4.1",
   "description": "A structured-log plugin that writes log events to Seq.",
   "main": "dist/structured-log-seq-sink.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wedvich/structured-log-seq-sink.git"
+    "url": "git+https://github.com/diginet-ab/structured-log-seq-sink.git"
   },
   "author": "Martin Wedvich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Wedvich/structured-log-seq-sink/issues"
+    "url": "https://github.com/diginet-ab/structured-log-seq-sink/issues"
   },
-  "homepage": "https://github.com/Wedvich/structured-log-seq-sink#readme",
+  "homepage": "https://github.com/diginet-ab/structured-log-seq-sink#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.11.5",
@@ -37,6 +37,6 @@
     "sinon": "^6.1.5"
   },
   "peerDependencies": {
-    "structured-log": "^0.1.0 || ^0.0.18"
+    "@diginet/structured-log": "^0.3.1"
   }
 }
